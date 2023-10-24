@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>dll_injector_gui</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <Authors>Wo1fie</Authors>
+    <Copyright>Wo1fie 2023</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dll-injector-dll\dll-injector-dll.csproj" />
+  </ItemGroup>
+
+</Project>
